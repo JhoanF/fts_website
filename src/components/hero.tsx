@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "@/components/container";
-import heroImg from "../../public/img/graphics/laptop_1.png";
+import heroImg from "../../public/img/graphics/consulting_1.png";
 import config from "@/config";
 
 const Hero = () => {
@@ -54,7 +54,7 @@ const Hero = () => {
             <Container>
                 <div className="flex flex-col justify-center">
                     <div className="text-xl text-center text-gray-700 dark:text-white">
-                        Services trusted by businesses of all sizes
+                        Services trusted by businesses of <em>all sizes</em> and <em>industries</em>
                     </div>
                     <div className="flex flex-wrap justify-center mt-10 md:justify-center">
                         <div className="text-gray-400 dark:text-gray-400">
@@ -62,6 +62,9 @@ const Hero = () => {
                         </div>
                         <div className="text-gray-400 dark:text-gray-400">
                             <Image src="/img/graphics/market_apps_1.png" alt="Marketing Automation" width="200" height="200" />
+                        </div>
+                        <div className="text-gray-400 dark:text-gray-400">
+                            <Image src="/img/graphics/laptop_1.png" alt="Marketing Automation" width="200" height="200" />
                         </div>
                     </div>
                 </div>
